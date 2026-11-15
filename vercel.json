@@ -1,4 +1,10 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/(google[a-f0-9]+\\.html)",
+      "destination": "/$1"
+    }
+  ]
 }
