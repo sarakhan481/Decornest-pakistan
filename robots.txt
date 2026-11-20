@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://decornest-pakistan.vercel.app/sitemap.xml
